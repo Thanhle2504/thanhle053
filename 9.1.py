@@ -1,8 +1,12 @@
 #9.1
+import math
 x=int(input("nhập số:"))
-if x<0:
-  print("-1")
-elif x>0:
-  print("1")
-elif x==0:
-  print("0")
+def n(x):
+ if x<0:
+  return "-1"
+ elif x>0:
+  return "1"
+ elif x==0:
+  return "0"
+a=n(x)
+print(a)
